@@ -1,0 +1,49 @@
+/* CSS стилове за задача 3 - HTML таблица */
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+/* Цветове за различните статуси според българската оценъчна система */
+.poor {
+    color: #dc3545; /* червено за слаб и среден */
+    font-weight: bold;
+}
+
+.good {
+    color: #fd7e14; /* оранжево за добър */
+    font-weight: bold;
+}
+
+.excellent {
+    color: #28a745; /* зелено за много добър и отличен */
+    font-weight: bold;
+}
+
+/* Допълнителни стилове за по-добър изглед */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e8e8e8;
+}

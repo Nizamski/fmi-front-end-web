@@ -1,0 +1,159 @@
+/* CSS стилове за задача 4 - HTML форма */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    padding: 5px;
+    border: 1px solid #999;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 200px;
+}
+
+input[type="password"] + span {
+    font-size: smaller;
+}
+
+input[type="email"] {
+    width: 420px;
+}
+
+select {
+    width: 200px;
+    background-color: white;
+}
+
+textarea {
+    width: 420px;
+    height: 80px;
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+input[type="checkbox"] {
+    margin-left: 0;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] + label {
+    display: inline-block;
+    font-size: 11px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Radio button group styling */
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.radio-group input[type="radio"]:first-of-type {
+    margin-left: 0;
+}
+
+.radio-group label {
+    display: inline;
+    margin-right: 15px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+/* Button container */
+.button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #6c757d;
+    color: white;
+    border: 1px solid #545b62;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #0056b3;
+}
+
+input[type="reset"]:hover {
+    background-color: #545b62;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.required-note {
+    font-size: 10px;
+    color: #666;
+    margin-top: 15px;
+}

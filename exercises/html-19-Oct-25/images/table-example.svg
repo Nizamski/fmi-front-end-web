@@ -1,0 +1,62 @@
+<svg width="600" height="230" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="230" fill="#f8f9fa"/>
+
+  <!-- Table outline -->
+  <rect x="20" y="20" width="560" height="180" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Header row -->
+  <rect x="20" y="20" width="560" height="30" fill="#f0f0f0" stroke="black" stroke-width="1"/>
+
+  <!-- Column separators -->
+  <line x1="120" y1="20" x2="120" y2="200" stroke="black" stroke-width="1"/>
+  <line x1="220" y1="20" x2="220" y2="200" stroke="black" stroke-width="1"/>
+  <line x1="350" y1="20" x2="350" y2="200" stroke="black" stroke-width="1"/>
+  <line x1="420" y1="20" x2="420" y2="200" stroke="black" stroke-width="1"/>
+
+  <!-- Row separators -->
+  <line x1="20" y1="50" x2="580" y2="50" stroke="black" stroke-width="1"/>
+  <line x1="20" y1="80" x2="580" y2="80" stroke="black" stroke-width="1"/>
+  <line x1="20" y1="110" x2="580" y2="110" stroke="black" stroke-width="1"/>
+  <line x1="20" y1="140" x2="580" y2="140" stroke="black" stroke-width="1"/>
+  <line x1="20" y1="170" x2="580" y2="170" stroke="black" stroke-width="1"/>
+  <line x1="20" y1="200" x2="580" y2="200" stroke="black" stroke-width="1"/>
+
+  <!-- Header text -->
+  <text x="70" y="38" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Име</text>
+  <text x="170" y="38" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Фамилия</text>
+  <text x="285" y="38" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Факултетен номер</text>
+  <text x="385" y="38" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Оценка</text>
+  <text x="500" y="38" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Статус</text>
+
+  <!-- Data rows -->
+  <text x="70" y="68" text-anchor="middle" font-family="Arial" font-size="11">Студент 1</text>
+  <text x="170" y="68" text-anchor="middle" font-family="Arial" font-size="11">Фамилия 1</text>
+  <text x="285" y="68" text-anchor="middle" font-family="Arial" font-size="11">1</text>
+  <text x="385" y="68" text-anchor="middle" font-family="Arial" font-size="11">5.50</text>
+  <text x="500" y="68" text-anchor="middle" font-family="Arial" font-size="11" fill="#28a745" font-weight="bold">Много добър</text>
+
+  <text x="70" y="98" text-anchor="middle" font-family="Arial" font-size="11">Студент 2</text>
+  <text x="170" y="98" text-anchor="middle" font-family="Arial" font-size="11">Фамилия 2</text>
+  <text x="285" y="98" text-anchor="middle" font-family="Arial" font-size="11">2</text>
+  <text x="385" y="98" text-anchor="middle" font-family="Arial" font-size="11">4.25</text>
+  <text x="500" y="98" text-anchor="middle" font-family="Arial" font-size="11" fill="#fd7e14" font-weight="bold">Добър</text>
+
+  <text x="70" y="128" text-anchor="middle" font-family="Arial" font-size="11">Студент 3</text>
+  <text x="170" y="128" text-anchor="middle" font-family="Arial" font-size="11">Фамилия 3</text>
+  <text x="285" y="128" text-anchor="middle" font-family="Arial" font-size="11">3</text>
+  <text x="385" y="128" text-anchor="middle" font-family="Arial" font-size="11">2.75</text>
+  <text x="500" y="128" text-anchor="middle" font-family="Arial" font-size="11" fill="#dc3545" font-weight="bold">Слаб</text>
+
+  <text x="70" y="158" text-anchor="middle" font-family="Arial" font-size="11">Студент 4</text>
+  <text x="170" y="158" text-anchor="middle" font-family="Arial" font-size="11">Фамилия 4</text>
+  <text x="285" y="158" text-anchor="middle" font-family="Arial" font-size="11">4</text>
+  <text x="385" y="158" text-anchor="middle" font-family="Arial" font-size="11">6.00</text>
+  <text x="500" y="158" text-anchor="middle" font-family="Arial" font-size="11" fill="#28a745" font-weight="bold">Отличен</text>
+
+  <text x="70" y="188" text-anchor="middle" font-family="Arial" font-size="11">Студент 5</text>
+  <text x="170" y="188" text-anchor="middle" font-family="Arial" font-size="11">Фамилия 5</text>
+  <text x="285" y="188" text-anchor="middle" font-family="Arial" font-size="11">5</text>
+  <text x="385" y="188" text-anchor="middle" font-family="Arial" font-size="11">3.50</text>
+  <text x="500" y="188" text-anchor="middle" font-family="Arial" font-size="11" fill="#dc3545" font-weight="bold">Среден</text>
+</svg>
