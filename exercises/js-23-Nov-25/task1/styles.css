@@ -1,0 +1,10 @@
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete-button {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
